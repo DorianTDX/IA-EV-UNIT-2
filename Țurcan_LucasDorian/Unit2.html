@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Unit2</title>
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<script src="scripturi.js"></script>
+	</head>
+	<body>
+	<div id="title">
+		<h1 class="titlet">Lucas Dorian TURCAN</h1>
+	</div>
+	<p class="email">Turcan.Tu.Lucas@utcluj.didatec.ro</p>
+	<div id="tabel">
+		<p>Specificatii tehnice ale statiei principale de lucru</p>
+		<table>
+			<tr>
+				<th>Denumire componenta</th><th>Producător</th><th>Parametri</th>
+			</tr>
+			<tr>
+				<td>Core™ i5-4200H</td><td>Intel®</td><td> 2.80GHz</td>
+			</tr>
+			<tr>
+				<td>Memorie RAM</td><td>Patriot</td><td>4 GB SODIMM DDR3L</td>
+			</tr>
+			<tr>
+				<td>GeForce GTX 950M</td><td>NVIDIA</td><td>4GB GDDR5</td>
+			</tr>
+		</table>
+	</div>
+	<div id="inforetea">
+		<p>Structura retelei personale si accesul la internet</p>
+		<img src="Retea.jpg"/>
+		<p class="infoP">Caracterisiticile conexiunii la retea</p>
+		<ul>
+			<li>Adresa MAC: 80-A5-89-AC-CA-C7</li>
+			<li>Adresa IP: 192.168.1.101</li>
+			<li>Debit la download: 53.8 Mbps</li>
+			<li>Debit la upload: 50.1 Mbps</li>
+		</ul>
+	</div>
+	<div id="slideshow">
+		<p ondblclick="SlideSHOW()">Utilizarea resurselor(slideshow)</p>
+		<div class="slideshow">
+			<button class="bLeft" onclick="sageti('stanga')"><</button>
+			<button class="bRight" onclick="sageti('dreapta')">></button>
+			<img class="poze" src="Imagine1.jpg" style="margin-left:30px;" alt="Nu exista"/>
+			<img class="poze" src="Imagine2.jpg" alt="Nu exista"/>
+			<img class="poze" src="Imagine3.jpg" alt="Nu exista"/>
+			<div class="center">
+			<span class="cerc" onclick="cerculete(1)">●</span>
+			<span class="cerc" onclick="cerculete(2)">○</span>
+			</div>
+		</div>
+	</div>
+	</body>
